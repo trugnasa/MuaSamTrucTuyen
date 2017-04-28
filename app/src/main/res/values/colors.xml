@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorTimThanBarclay">#29002d</color>
+    <color name="colorXanhLaMaBarclay">#4bfd8d</color>
+    <color name="colorTrang">#FFF</color>
+    <color name="colorFaceBook">#3b5998</color>
+    <color name="colorGooglePlus">#dd4a39</color>
+    <color name="colorDaCam">#FF5722</color>
+    <color name="colorXam">#9E9E9E</color>
+    <color name="tranDaCam">#80FF5722</color>
+    <color name="tranDen">#80000000</color>
+    <color name="colorToolbar">#144959</color>
+    <color name="colorDo">#D50000</color>
+    <color name="colorDen">#000</color>
+</resources>

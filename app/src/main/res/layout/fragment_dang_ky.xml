@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cần điền tất cả các mục"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_edHoTenDK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            >
+            <com.project.luulinhson.muasamtructuyen.CustomView.ClearEditText
+                android:id="@+id/edHoTenDK"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Họ tên đầy đủ"
+                android:textColor="#000"
+                app:useValidatetwo="true"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_edEmailDK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            >
+            <com.project.luulinhson.muasamtructuyen.CustomView.ClearEditText
+                android:id="@+id/edEmailDK"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Địa chỉ Email"
+                android:textColor="#000"
+                app:useValidatetwo="true"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_edPassDK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            >
+            <com.project.luulinhson.muasamtructuyen.CustomView.PasswordEditText
+                android:id="@+id/edMatKhauDK"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mật khẩu"
+                android:textColor="#000"
+                app:useStrike="true"
+                app:useValidate="true"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mật khẩu phải bao gồm ít nhất 6 ký tự và 1 chữ hoa"
+            android:textColor="@color/colorXam"
+            android:layout_marginTop="15dp"
+            />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_edPassAgainDK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            >
+            <com.project.luulinhson.muasamtructuyen.CustomView.PasswordEditText
+                android:id="@+id/edNhapLaiMatKhauDK"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mật khẩu"
+                android:textColor="#000"
+                app:useStrike="true"
+                app:useValidate="true"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/switchEmailDocQuyen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tôi muốn nhận các khuyến mại độc quyền qua email"
+            android:layout_marginTop="15dp"
+            />
+
+        <Button
+            android:id="@+id/btnDangKy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_button_dang_nhap"
+            android:text="Đăng ký"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tôi đã đọc và hiểu rõ các điều khoản và chính sách bảo mật của lazada"
+            android:layout_marginTop="8dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hoặc đăng ký bằng"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+            <Button
+                android:id="@+id/btnDangKyFacebook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/facebook_logo"
+                android:text="Facebook"
+                android:textColor="@color/colorFaceBook"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_facebook"
+                android:layout_marginRight="5dp"
+                />
+            <Button
+                android:id="@+id/btnDangKyGoogle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/googleplus_icon"
+                android:text="Google+"
+                android:textColor="@color/colorGooglePlus"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_google_plus"
+                android:layout_marginLeft="5dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
+

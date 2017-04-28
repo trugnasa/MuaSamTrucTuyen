@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorXam"
+    >
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarThanhToan"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorToolbar"
+        >
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@color/colorTrang"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Gửi tới:"
+            android:textColor="@color/colorFaceBook" />
+
+        <EditText
+            android:id="@+id/tvHoTenThanhToan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_boder_edittext_trang_thanh_toan"
+            android:hint="Họ và tên"
+            android:textColor="@color/colorXam"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/tvDiaChiThanhToan"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_boder_edittext_trang_thanh_toan"
+            android:gravity="top"
+            android:hint="Địa chỉ"
+            android:textColor="@color/colorXam"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/tvSoDienThoaiThanhToan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_boder_edittext_trang_thanh_toan"
+            android:hint="Số điện thoại"
+            android:inputType="number"
+            android:textColor="@color/colorXam"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Chọn phương thức thanh toán:"
+            android:textColor="@color/colorFaceBook" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
+                <ImageView
+                    android:id="@+id/imCOD"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/trucks"
+                    />
+
+                <TextView
+                    android:id="@+id/tvCOD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Thanh toán khi nhận hàng"
+                    android:textColor="@color/colorXam"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
+                <ImageView
+                    android:id="@+id/imViSa"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/credit_card"
+                    />
+                <TextView
+                    android:id="@+id/tvViSa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chuyển khoản"
+                    android:textColor="@color/colorXam"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/checkBoxThanhToan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Tôi cam kết các thông tin khai báo phía trên là chính xác"
+            android:textColor="@color/colorFaceBook" />
+
+        <Button
+            android:id="@+id/btnThanhToan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_button_dang_nhap"
+            android:text="tiến hành thanh toán" />
+    </LinearLayout>
+</LinearLayout>

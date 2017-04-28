@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MuaSamTrucTuyen</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="facebook_app_id">276132106142139</string>
+    <string name="google_plus_client_id">106499032357-2i628k4f3fksr25ev8qk8in20gnd125p.apps.googleusercontent.com</string>
+</resources>

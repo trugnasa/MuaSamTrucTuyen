@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hinhnensplash"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#80000000"
+        >
+
+
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/shopingbag"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thế giới mua sắm"
+            android:textColor="#FFF"
+            android:textSize="17sp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="trong tầm tay bạn"
+            android:textColor="#FFF"
+            android:textSize="17sp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/moneybag"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giao hàng tận nơi"
+            android:textColor="#FFF"
+            android:textSize="17sp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+ thanh toán dễ dàng"
+            android:textColor="#FFF"
+            android:textSize="17sp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/khien"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100% bảo vệ người tiêu dùng"
+            android:textColor="#FFF"
+            android:textSize="17sp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cam kết"
+            android:textColor="#FFF"
+            android:textSize="17sp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            />
+
+        <ImageView
+            android:id="@+id/imLazada"
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:background="@drawable/lazadatrang"
+            android:layout_gravity="bottom|center"
+            />
+
+    </LinearLayout>
+
+
+</FrameLayout>

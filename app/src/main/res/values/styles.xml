@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#144959</item>
+        <item name="colorPrimaryDark">#144959</item>
+        <item name="colorAccent">#FF5722</item>
+        <item name="android:textColorPrimary">#FFF</item>
+    </style>
+
+    <style name="toolbar" parent="AppTheme">
+        <item name="android:textColorPrimary">#000</item>
+        <item name="drawerArrowStyle">@style/changecolordrawerlayout</item>
+    </style>
+
+    <style name="TextColor" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="changecolordrawerlayout" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">#FFF</item>
+    </style>
+
+    
+    <declare-styleable name="PasswordEditText">
+        <attr name="useStrike" format="boolean"/>
+        <attr name="useValidate" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="ClearEditText">
+        <attr name="useValidatetwo" format="boolean"/>
+    </declare-styleable>
+
+    <style name="changecolorratingbar" parent="AppTheme">
+        <item name="colorControlNormal">@color/colorDaCam</item>
+    </style>
+
+
+</resources>

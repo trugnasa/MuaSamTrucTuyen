@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    >
+
+    <ImageButton
+        android:id="@+id/imshopping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_shopping_cart_white_24dp"
+        android:background="#00000000"
+        android:padding="10dp"
+        />
+    <TextView
+        android:id="@+id/tvSoLuongSanPhamTrongGioHang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textColor="#FFF"
+        android:background="@drawable/custom_textview_shopping_cart_circel"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="2dp"
+
+        />
+
+</FrameLayout>

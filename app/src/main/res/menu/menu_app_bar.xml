@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+    <item
+        android:id="@+id/itsearch"
+        android:title="Tìm kiếm"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_search_white_24dp"
+        />
+
+    <item
+        android:id="@+id/itgiohang"
+        android:title="Giỏ Hàng"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_shopping_cart_white_18dp"
+        app:actionLayout="@layout/custom_shopping_cart"
+        />
+
+    <item
+        android:id="@+id/itmenu"
+        android:title="Menu"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_more_vert_white_18dp"
+
+        >
+        <menu>
+            <item
+                android:id="@+id/itdangnhap"
+                android:title="Đăng nhập"
+                app:showAsAction="always"
+                android:icon="@drawable/ic_sentiment_very_satisfied_black_18dp"
+                />
+            <item
+                android:id="@+id/itthongbao"
+                android:title="Thông báo"
+                app:showAsAction="always"
+                android:icon="@drawable/ic_notifications_none_black_18dp"
+                />
+            <item
+                android:id="@+id/itdanhsachmongmuon"
+                android:title="Danh sách mong muốn"
+                app:showAsAction="always"
+                android:icon="@drawable/ic_favorite_border_black_18dp"
+                />
+            <item
+                android:id="@+id/itdonhangcuatoi"
+                android:title="Đơn hàng của tôi"
+                app:showAsAction="always"
+                android:icon="@drawable/ic_shopping_basket_black_18dp"
+                />
+            <item
+                android:id="@+id/itcaidat"
+                android:title="Cài đặt"
+                app:showAsAction="always"
+                android:icon="@drawable/ic_settings_black_18dp"
+                />
+            <item
+                android:id="@+id/itchinhsach"
+                android:title="Chính sách"
+                app:showAsAction="always"
+                android:icon="@drawable/ic_description_black_18dp"
+                />
+            <item
+                android:id="@+id/ittrogiup"
+                android:title="Trợ giúp"
+                app:showAsAction="always"
+                android:icon="@drawable/ic_help_outline_black_18dp"
+                />
+            <item
+                android:id="@+id/itdangxuat"
+                android:title="Đăng xuất"
+                app:showAsAction="always"
+                android:icon="@drawable/icon_logout"
+                android:visible="false"
+                />
+
+        </menu>
+    </item>
+
+
+
+
+
+
+
+
+</menu>
